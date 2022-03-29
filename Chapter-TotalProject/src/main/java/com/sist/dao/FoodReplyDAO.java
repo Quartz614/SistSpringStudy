@@ -50,6 +50,21 @@ public class FoodReplyDAO {
     	
     	return result;
     }
+    
+    public List<FoodReplyVO> replyListData(int fno)
+    {
+    	return mapper.replyListData(fno);
+    }
+    
+    public void replyInsert(FoodReplyVO vo)
+    {
+    	mapper.replyInsert(vo);
+    }
+    
+    public void replyUpdate(FoodReplyVO vo)
+    {
+    	mapper.replyUpdate(vo);
+    }
 }
 
 
