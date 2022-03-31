@@ -25,6 +25,18 @@
     <h3 class="text-right">
      <a href="chat.do" class="btn btn-sm btn-info">채팅</a>
      <a href="find.do" class="btn btn-sm btn-info">검색</a>
+     <a href="recipe.do" class="btn btn-sm btn-info">레시피</a>
+     <a href="chef.do" class="btn btn-sm btn-info">쉐프</a>
+     <a href="board.do" class="btn btn-sm btn-info">게시판</a>
+     <%--
+                     사이트
+           1. 게시판 (자유게시판,묻고답하기=>실시간 채팅)  
+           2. 로그인 , 회원가입 
+           3. 공지사항 
+           4. 목록 = 상세보기 
+           ====================================
+           5. 기타 옵션 : 예약 , 구매 , 추천 , 스트리밍... , 경매 , 코스 
+      --%>
     </h3>
     <h3>믿고보는 맛집 리스트</h3>
     <hr>
