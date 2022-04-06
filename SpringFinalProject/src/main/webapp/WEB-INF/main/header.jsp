@@ -20,9 +20,9 @@
         <li><a class="drop" href="#">Recipe</a>
           <ul>
             <li><a href="../recipe/list.do">레시피 목록</a></li>
-            <li><a href="#">추천 레시피</a></li>
-            <li><a href="#">레시피 제작</a></li>
-            <li><a href="#">레시피 검색</a></li>
+            <li><a href="../recipe/recipe_recommand.do">추천 레시피</a></li>
+            <li><a href="../recipe/recipe_make.do">레시피 제작</a></li>
+            <li><a href="../recipe/recipe_find.do">레시피 검색</a></li>
             <li><a href="../recipe/chef.do">쉐프</a></li>
           </ul>
         </li>
@@ -41,7 +41,7 @@
           </ul>
         </li>
         <li><a href="#">재료가격비교</a></li>
-        <li><a href="#">코스만들기</a></li>
+        <li><a href="../seoul/seoul_make.do">코스만들기</a></li>
       </ul>
     </nav>
     <!-- ################################################################################################ -->
