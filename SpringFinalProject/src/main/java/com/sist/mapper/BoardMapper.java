@@ -47,7 +47,7 @@ public interface BoardMapper {
    public String boardGetPassword(int no);
    // 수정하기   => Update
    @Update("UPDATE final_board SET "
-		  +"name=#{name},subject=#{subject},content=#{content} "
+		  +"nameㅊ=#{name},subject=#{subject},content=#{content} "
 		  +"WHERE no=#{no}")
    public void boardUpdate(BoardVO vo);
    // 삭제        => Delete 
